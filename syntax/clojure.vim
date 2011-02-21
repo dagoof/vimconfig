@@ -113,7 +113,8 @@ if (exists("g:clj_highlight_builtins") && g:clj_highlight_builtins != 0)
 		\            . "future-call methods mod pcalls prefers pvalues "
 		\            . "print-namespace-doc remove-watcher reset! "
 		\            . "reset-meta! type vary-meta unquote-splicing "
-		\            . "sequence clojure-version counted? stream?"
+		\            . "sequence clojure-version counted? stream? "
+		\            . "frequencies"
 		\ }
 
 	for category in keys(s:builtins_map)
