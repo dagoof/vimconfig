@@ -38,8 +38,8 @@ if (exists("g:clj_highlight_builtins") && g:clj_highlight_builtins != 0)
 		\            . "*1 *2 *3 *e",
 		\ "Define":    "def- defn defn- defmacro defmulti defmethod "
 		\            . "defstruct defonce declare definline ",
-		\ "Macro":     "and or -> assert with-out-str with-in-str with-open "
-		\            . "locking destructure ns dosync binding delay "
+		\ "Macro":     "and or -> ->> assert with-out-str with-in-str "
+		\            . "with-open locking destructure ns dosync binding delay "
 		\            . "lazy-cons lazy-cat time assert doc with-precision "
 		\            . "with-local-vars .. doto memfn proxy amap areduce "
 		\            . "refer-clojure future lazy-seq letfn",
