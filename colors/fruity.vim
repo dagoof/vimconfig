@@ -16,7 +16,8 @@ let colors_name = "fruity"
 
 " Default Colors
 hi Normal       guifg=#ffffff   guibg=#111111
-hi NonText      guifg=#444444   guibg=#000000
+"hi NonText      guifg=#444444   guibg=#000000
+hi NonText      guifg=#2f2f2f   guibg=#111111
 hi Cursor       guibg=#aaaaaa
 hi lCursor      guibg=#aaaaaa
 
