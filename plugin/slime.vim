@@ -6,7 +6,8 @@ function Send_to_Screen(text)
     call Screen_Vars()
   end
 
-  echo system("screen -S " . g:screen_sessionname . " -p " . g:screen_windowname . " -X stuff '" . substitute(a:text, "'", "'\\\\''", 'g') . "'")
+  let s:foo_text = substitute(a:text, '\n\s*\n\+', '\n', 'g') . "\n"
+  silent exe '!screen -S ' . g:screen_sessionname . ' -p ' . g:screen_windowname . ' -X stuff "' . substitute(escape(s:foo_text, '!"\%#'), '[\r\n]', '\r', 'g') . '"' | redraw!
 endfunction
 
 function Screen_Session_Names(A,L,P)
