@@ -1,6 +1,6 @@
 syntax on
 colorscheme fruity
-set guifont=Inconsolata\ 12
+set guifont=Inconsolata:h16
 set nu!
 set showmatch
 set go-=m go-=T
