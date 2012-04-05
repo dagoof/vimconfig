@@ -1,3 +1,5 @@
+set rtp+=/usr/local/go/misc/vim
+
 syntax on
 colorscheme fruity
 set guifont=Inconsolata\ 12
@@ -30,3 +32,4 @@ let g:clj_paren_rainbow=1
 set textwidth=80
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
+
