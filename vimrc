@@ -19,9 +19,6 @@ set incsearch
 set list
 set listchars=eol:¬
 
-"nnoremap <space> zA
-"vnoremap <space> zA
-
 map <tab> zA
 map <F2> :NERDTreeToggle<CR>
 
