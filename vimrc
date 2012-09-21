@@ -10,14 +10,11 @@ set go-=m go-=T
 set smartindent
 set tabstop=4
 set shiftwidth=4
-set expandtab
 
 set ignorecase
 set smartcase
 set hlsearch
 set incsearch
-set list
-set listchars=eol:¬
 
 map <tab> zA
 map <F2> :NERDTreeToggle<CR>
