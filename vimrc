@@ -1,7 +1,7 @@
 set rtp+=/usr/local/go/misc/vim
 
 syntax on
-colorscheme Mustang
+colorscheme mymustang
 set t_Co=256
 
 set guifont=Inconsolata\ 12
