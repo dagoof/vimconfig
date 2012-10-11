@@ -1,7 +1,9 @@
 set rtp+=/usr/local/go/misc/vim
 
 syntax on
-colorscheme fruity
+colorscheme Mustang
+set t_Co=256
+
 set guifont=Inconsolata\ 12
 set nu!
 set showmatch
