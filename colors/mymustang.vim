@@ -43,10 +43,10 @@ hi Identifier 	guifg=#b1d631 gui=none ctermfg=148
 hi Function 	guifg=#ffffff gui=bold ctermfg=255 cterm=bold
 hi Type 		guifg=#7e8aa2 gui=none ctermfg=103
 hi Statement 	guifg=#7e8aa2 gui=none ctermfg=103
-hi Keyword		guifg=#ff9800 gui=none ctermfg=208
-hi Constant 	guifg=#ff9800 gui=none  ctermfg=208
-hi Number		guifg=#ff9800 gui=none ctermfg=208
-hi Special		guifg=#ff9800 gui=none ctermfg=208
+hi Keyword		guifg=#ff9800 gui=none ctermfg=208 cterm=bold
+hi Constant 	guifg=#ff9800 gui=none  ctermfg=208 cterm=bold
+hi Number		guifg=#ff9800 gui=none ctermfg=208 cterm=bold
+hi Special		guifg=#ff9800 gui=none ctermfg=208 cterm=bold
 hi PreProc 		guifg=#faf4c6 gui=none ctermfg=230
 hi Todo         guifg=#000000 guibg=#e6ea50 gui=italic
 
