@@ -1,5 +1,6 @@
 set rtp+=/usr/local/go/misc/vim
 
+set shell=/bin/sh
 syntax on
 colorscheme mymustang
 set t_Co=256
@@ -28,4 +29,3 @@ let g:clj_paren_rainbow=1
 set textwidth=80
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
-
